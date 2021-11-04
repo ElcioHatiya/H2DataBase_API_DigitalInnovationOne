@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 
 @RestController
-@RequestMapping("/api/v1/people")
+@RequestMapping("/api/v2/people")
 public class PersonApiElcioHatiyaApplication {
 
 	private final PersonRepository personRepository;
@@ -37,7 +37,7 @@ public class PersonApiElcioHatiyaApplication {
 	@GetMapping
 	public String getBook() {
 
-		return "Deploy on Heroku OK!!!  Git push -> Auto Deploy  /ElcioHatiya";
+		return "Cloud deploy OK!!!    Git push   >>>   Heroku Auto Deploy   / ElcioHatiya";
 
 	}
 
